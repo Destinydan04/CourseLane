@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Lane</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="JavaScript/JavaScipt.js"></script>
+</head>
+<body>
+  <section>
+    <!-- Header section -->
+  <header class="header">
+    <div class="logo-group">
+    <div class="logo-container">
+      <a href="#"><img src="Images/course-lane-image.jpg" alt="Logo" class="site-logo"></a>
+      <a href="#"><img src="Images/course-lane.jpg" href="#" class="logo-text" alt="Course Lane"></a>
+    </div>
+    </div>
+
+
+    <div>
+        <nav class="main-nav">
+          <a href="#">Courses</a>
+        </nav>
+    </div>
+
+
+    <div class="auth-buttons">
+      <a href="../Signing Credentials/Sign In/Sign In.html" class="login-btn">Sign In</a>
+      <a href="../Signing Credentials/Sign Up/Sign Up.html" class="signup-btn">Sign Up</a>
+    </div>
+  </header>
+</section>
+
+
+<section>
+<!--Another photo-->
+<div class="reading-book">
+<img src="Images/book-girl.jpeg" alt="A girl reading a book">
+  </div>
+</section> 
+
+
+<section>
+<!-- Add a container for better layout control -->
+  <div class="content-section">
+  <div class="paragraph">
+    <h1>Start learning<br>from today!</h1>
+  </div>
+</section>
+<section>
+  <!-- Search bar -->
+   <div class="search-bar">
+    <form action="/search" method="GET">
+    <input type="text" name="query" placeholder="Search For Courses">
+    </form>
+   </div>
+ </section>
+
+ <section>
+  <div class="course-previews">
+    <!-- Course Card 1 -->
+    <div class="course-card" data-course-id="1">
+        <div class="course-image">
+            <img src="Images/web.jpg" alt="Web Course">
+        </div>
+        <div class="course-content">
+            <h3 class="course-title">Introduction to Web</h3>
+            <div class="rating-system">
+                <div class="stars">
+                    <i class="star fas fa-star" data-value="1"></i>
+                    <i class="star fas fa-star" data-value="2"></i>
+                    <i class="star fas fa-star" data-value="3"></i>
+                    <i class="star fas fa-star" data-value="4"></i>
+                    <i class="star fas fa-star" data-value="5"></i>
+                </div>
+                <div class="rating-number"></div>
+            </div>
+            <button class="preview-button">Preview Course</button>
+        </div>
+    </div>
+
+    <div class="course-card" data-course-id="2">
+      <div class="course-image">
+          <img src="Images/web-design.jpg" alt="Web Design Course">
+      </div>
+      <div class="course-content">
+          <h3 class="course-title">Introduction to Web Design</h3>
+          <div class="rating-system">
+              <div class="stars">
+                  <i class="star fas fa-star" data-value="1"></i>
+                  <i class="star fas fa-star" data-value="2"></i>
+                  <i class="star fas fa-star" data-value="3"></i>
+                  <i class="star fas fa-star" data-value="4"></i>
+                  <i class="star fas fa-star" data-value="5"></i>
+              </div>
+              <div class="rating-number"></div>
+          </div>
+          <button class="preview-button">Preview Course</button>
+      </div>
+  </div>
+
+
+    <!-- Course Card 2 -->
+    <div class="course-card" data-course-id="3">
+      <div class="course-image">
+          <img src="Images/python-course.jpg" alt="Python Programming">
+      </div>
+      <div class="course-content">
+          <h3 class="course-title">Python Programming Basics</h3>
+          <div class="rating-system">
+              <div class="stars">
+                  <i class="star fas fa-star" data-value="1"></i>
+                  <i class="star fas fa-star" data-value="2"></i>
+                  <i class="star fas fa-star" data-value="3"></i>
+                  <i class="star fas fa-star" data-value="4"></i>
+                  <i class="star fas fa-star" data-value="5"></i>
+              </div>
+              <div class="rating-number"></div>
+          </div>
+          <button class="preview-button">Preview Course</button>
+      </div>
+  </div>
+</div>
+<div class="rating-notification"></div>
+</section> 
+
+<section>
+    <div class="learning-process">
+      <a href="#"><h3>Start Learning <i class="fa-solid fa-arrow-right"></i></h3></a>
+    </div>
+</section>
+
+<div class="overlay"></div>
+
+</body>
+</html>
